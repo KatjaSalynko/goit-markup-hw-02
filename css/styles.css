@@ -1,0 +1,106 @@
+/* COMPONENTS */
+
+/* END COMPONENTS */
+.main-address {
+    font-style: normal;
+}
+
+/* ===========HEADER============= */
+.logo-blue-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-black-color {
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.nav-list-link {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #2196F3;
+}
+
+.header-mail,
+.header-tel{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color:#2196F3;
+}
+/* ===========END HEADER============= */
+
+/* ===========HERO============= */
+.hero-title{
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF */
+}
+.hero-title-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+/* color: #FFFFFF; */
+}
+/* ===========END HEADER============= */
+
+/* ========== JOB DESCRIPTION */
+.undertitle {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.description-undertitle{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ========== END JOB DESCRIPTION============ */
+
+/* ===========RESPONSIBILITIES============== */
+
+/* ===========END RESPONSIBILITIES============== */
