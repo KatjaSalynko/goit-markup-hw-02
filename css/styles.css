@@ -3,13 +3,30 @@
     --secondary-font: 'Raleway', sans-serif ;
     --accent-color: #2196F3; 
 }
-
-/* COMPONENTS */
-
-/* END COMPONENTS */
-.main-address {
+body {
+    font-family: var(--main-font);
+}
+.address-menu {
     font-style: normal;
 }
+.address-menu-footer {
+    background-color: #2F303A;
+}
+/* COMPONENTS */
+li.address-list-item > a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: rgba(255,255,255,0.6); 
+}
+li.address-list-item.first> a {
+    color: white;
+}
+/* END COMPONENTS */
+
 
 /* ===========HEADER============= */
 .logo-blue-color{
@@ -160,7 +177,15 @@ font-size: 16px;
 line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
+border: 0;
+border-radius: 3px;
 color: #212121;
+padding: 6px 12px;
+}
+.section-list-btn:hover, 
+.section-list-btn:focus{
+    background-color:#2196F3;
+    color: white;
 }
 /* =========== END PORTFOLIO ============== */
 /* =========== PROJECTS ============== */
