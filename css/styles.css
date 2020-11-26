@@ -3,6 +3,8 @@
     --secondary-font: 'Raleway', sans-serif ;
     --accent-color: #2196F3; 
 }
+a {text-decoration: none;}
+ul{list-style: none;}
 body {
     font-family: var(--main-font);
 }
