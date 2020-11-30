@@ -3,8 +3,25 @@
     --secondary-font: 'Raleway', sans-serif ;
     --accent-color: #2196F3; 
 }
-a {text-decoration: none;}
-ul{list-style: none;}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after{
+   margin: 0; 
+   padding: 0;
+}
+
+img{
+    display: block;
+}
+
 body {
     font-family: var(--main-font);
 }
@@ -14,7 +31,14 @@ body {
 .address-menu-footer {
     background-color: #2F303A;
 }
-/* COMPONENTS */
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/* =========== COMPONENTS ========== */
 li.address-list-item > a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -27,10 +51,42 @@ li.address-list-item > a{
 li.address-list-item.first> a {
     color: white;
 }
-/* END COMPONENTS */
-
+/* ============ END COMPONENTS ============ */
 
 /* ===========HEADER============= */
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+}
+
+.header .logo{
+    margin-right: 110px;
+}
+
+.nav-list-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.header .address-menu-header {
+    margin-left: auto;
+}
+
+.header .header-mail{
+    margin-right: 36px;
+}
+
 .logo-blue-color{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -90,9 +146,21 @@ line-height: 1.364;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+padding-top: 205px;
+padding-bottom: 285px;
+padding-left: 281px;
+padding-right: 281px;
 /* color: #FFFFFF */
 }
-.hero-title-btn {
+.hero-title-btn{
+min-width: 200px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 485px;
+margin-bottom: 201px;
+margin-top: 30px;
+
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 16px;
@@ -101,11 +169,28 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-/* color: #FFFFFF; */
+padding: 10px 32px;
+color: #FFFFFF;
+}
+
+.hero-title-btn:hover,
+.hero-title-btn:focus{
+    background-color: green;
+    color: red;
 }
 /* ===========END HERO ============= */
 
 /* ========== JOB DESCRIPTION */
+
+.description-list{
+    display: flex;
+    margin-bottom: 94px;
+}
+.description-list-item:not(:last-child){
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
 .undertitle {
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
@@ -127,6 +212,17 @@ color: #757575;
 /* ========== END JOB DESCRIPTION============ */
 
 /* ===========RESPONSIBILITIES============== */
+.responsibilities .container{
+    display: flex;
+}
+.responsibilities-title-list{
+    display: flex;
+}
+
+.responsibilities-title-item:not(:last-child){
+    margin-right: 30px;
+}
+
 .responsibilities-title {
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
