@@ -170,6 +170,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 padding: 10px 32px;
+cursor: pointer;
 
 color: #FFFFFF;
 }
@@ -250,6 +251,7 @@ color: #212121;
 
 .team-title-list{
     display:flex;
+    padding-bottom: 94px;
 }
 
 .team-title-item:not(:last-child){
@@ -351,7 +353,7 @@ cursor: pointer;
 
 
 /* =========== END PORTFOLIO ============== */
-/* =========== PROJECTS ============== */
+/* ============ PROJECTS ============== */
 .projects-title{
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
@@ -370,15 +372,21 @@ color: #757575;
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
 }
-.projects-list-img{
-    margin-right: 30px;
-    margin-bottom: 30px;
+.projects-list-item:not(:last-child){
+    margin-right: 20px;
+    margin-bottom: 30px; 
+}
+.projects-list-item{
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
 }
 
+.projects-title{
+    padding-top: 29px;
+    padding-bottom: 17px;
+}
 /* =========== END PROJECTS ============== */
 
