@@ -372,6 +372,7 @@ color: #757575;
 .projects-list{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 94px;
 }
 .projects-list-item:not(:last-child){
     margin-right: 20px;
