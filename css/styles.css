@@ -319,6 +319,13 @@ color: rgba(255, 255, 255, 0.6);
 /* =========== END INFORMATION ============== */
 
 /* =========== PORTFOLIO ============== */
+.section-list{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 94px;
+}
+
 .section-list-btn{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -329,13 +336,20 @@ letter-spacing: 0.03em;
 border: 0;
 border-radius: 3px;
 color: #212121;
-padding: 6px 12px;
+padding: 6px 22px;
+cursor: pointer;
 }
 .section-list-btn:hover, 
 .section-list-btn:focus{
     background-color:#2196F3;
     color: white;
 }
+.section-list-item:not(:last-child) {
+    margin-right: 8px;
+    padding-bottom: 56px;
+}
+
+
 /* =========== END PORTFOLIO ============== */
 /* =========== PROJECTS ============== */
 .projects-title{
@@ -353,5 +367,18 @@ line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
 }
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.projects-list-img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
 /* =========== END PROJECTS ============== */
 
