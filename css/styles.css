@@ -55,8 +55,8 @@ li.address-list-item.first> a {
 
 /* ===========HEADER============= */
 .header{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header .container {
@@ -87,7 +87,7 @@ li.address-list-item.first> a {
     margin-right: 36px;
 }
 
-.logo-blue-color{
+.header .logo-blue-color{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size:26px;
@@ -96,7 +96,7 @@ li.address-list-item.first> a {
     color: #2196F3;
 }
 
-.logo-black-color {
+.header .logo-black-color {
 font-family: 'Raleway', sans-serif;
 font-weight: bold;
 font-size: 26px;
@@ -147,7 +147,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 padding-top: 205px;
-padding-bottom: 285px;
+padding-bottom: 30px;
 padding-left: 281px;
 padding-right: 281px;
 /* color: #FFFFFF */
@@ -170,13 +170,14 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 padding: 10px 32px;
+
 color: #FFFFFF;
 }
 
 .hero-title-btn:hover,
 .hero-title-btn:focus{
-    background-color: green;
-    color: red;
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 /* ===========END HERO ============= */
 
@@ -198,6 +199,7 @@ font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-bottom: 10px;
 color: #212121;
 }
 
@@ -207,14 +209,12 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
+padding-bottom: 94px;
 color: #757575;
 }
 /* ========== END JOB DESCRIPTION============ */
 
 /* ===========RESPONSIBILITIES============== */
-.responsibilities .container{
-    display: flex;
-}
 .responsibilities-title-list{
     display: flex;
 }
@@ -230,10 +230,32 @@ font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
+padding-bottom: 50px;
 color: #212121;
 }
 /* ===========END RESPONSIBILITIES============== */
 /* =========== TEAM ============== */
+.team-title{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+
+padding-top: 188px;
+padding-bottom: 50px;
+
+color: #212121;
+}
+
+.team-title-list{
+    display:flex;
+}
+
+.team-title-item:not(:last-child){
+    margin-right: 30px;
+}
+
 .team-undertitle{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -241,6 +263,10 @@ font-size: 16px;
 line-height: 1.187;
 text-align: center;
 letter-spacing: 0.03em;
+
+padding-top: 30px;
+padding-bottom: 10px;
+
 color: #212121;
 }
 
@@ -252,20 +278,45 @@ font-size: 16px;
 line-height: 1.188;
 text-align: center;
 letter-spacing: 0.03em;
+padding-bottom: 30px;
 color: #757575;
 }
 /* =========== END TEAM ============== */
-/* =========== CONTACT INFORMATION ============== */
-
+/* =========== CONTACT INFORMATION ============= */
+.footer {
+    background-color: hsl(235deg 10% 21%);
+}
+.footer{
+    padding-top: 67px;
+    padding-bottom: 64px;
+}
+.footer .logo-blue-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size:26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.footer .logo-white-color{
+    font-family: 'Raleway', sans-serif;
+    font-size:26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-list{
+    padding-top: 27px;
+}
 .address-list-item {
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
+margin-top: 15px;
 color: rgba(255, 255, 255, 0.6);
 }
 /* =========== END INFORMATION ============== */
-
 
 /* =========== PORTFOLIO ============== */
 .section-list-btn{
